@@ -2,20 +2,25 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tiles
-  m_Shader: {fileID: 4800000, guid: 803b2c6782f61d2408aeb03e4435c4f3, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _UseAlphaClipping
+  m_Shader: {fileID: 4800000, guid: c23b0d91d4f323f4faf00f9b8927bba3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _UseAlphaClipping
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -103,6 +108,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AdditionalLightIgnoreCelShade: 0.9
     - _AlphaClip: 1
@@ -138,6 +144,7 @@ Material:
     - _OutlineZOffsetMaskRemapEnd: 1
     - _OutlineZOffsetMaskRemapStart: 0
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadowMappingAmount: 1
     - _ReceiveShadowMappingPosOffset: 0
@@ -171,7 +178,7 @@ Material:
     - _ShadowColor: {r: 0.8, g: 0.8, b: 1, a: 1}
     - _ShadowMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tint: {r: 0.8509804, g: 0.8509804, b: 0.8509804, a: 0}
+    - _Tint: {r: 0.85882354, g: 0.85882354, b: 0.85882354, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4262610497606540074
 MonoBehaviour:
