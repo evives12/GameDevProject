@@ -1,0 +1,4 @@
+repository "SlimeAdventure/SlimeAdventure@20067502360328@cloud"
+  path "/"
+    br "/main"
+    co "/main"
