@@ -1,16 +1,15 @@
-using UnityEngine;
-using System.Collections.Generic;
 using System.Collections;
-
+using System.Collections.Generic;
+using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-    public int NumberOfTrophies { get; private set; }
+    public int NumOfTrophies;
 
     public void TrophiesCollected()
     {
-        NumberOfTrophies++;
-        
+        NumOfTrophies++;
+        Debug.Log("Trophies Collected: " + NumOfTrophies);
     }
 
 }

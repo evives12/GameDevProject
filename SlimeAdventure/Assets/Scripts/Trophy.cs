@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Trophy : MonoBehaviour
 {
-   private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-      PlayerInventory playerInventory = other.GetComponent<PlayerInventory>();
+        PlayerInventory playerInventory = other.GetComponent<PlayerInventory>();
 
         if(playerInventory != null)
         {
             playerInventory.TrophiesCollected();
-            gameObject.SetActive(false); // Deactivate the trophy object
+            gameObject.SetActive(false);
         }
     }
 }
