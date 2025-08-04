@@ -145,8 +145,8 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Gradient: 0.67
-    - _LeavesThickness: 0.5
+    - _Gradient: 0.581
+    - _LeavesThickness: 0.485
     - _Metallic: 0
     - _Mode: 0
     - _NormalScale: 0
@@ -192,10 +192,10 @@ Material:
     - _Color: {r: 0, g: 1, b: 0.8239019, a: 1}
     - _DeepColor: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.036825657, g: 0, b: 1, a: 1}
+    - _GroundColor: {r: 0, g: 0.029838085, b: 1, a: 1}
     - _ShalowColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tint: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 0}
-    - _TopColor: {r: 0, g: 0.6313726, b: 0.10641786, a: 1}
+    - _TopColor: {r: 0.6313726, g: 0, b: 0.22941369, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
