@@ -9,7 +9,7 @@ public class PlayerInventory : MonoBehaviour
     public int NumOfTrophies;
 
     public UnityEvent<PlayerInventory> OnTrophyCollected;
-    public SceneFader sceneFader;
+    
 
     public void TrophiesCollected()
     {
@@ -25,7 +25,7 @@ public class PlayerInventory : MonoBehaviour
 
     private void EndGame()
     {
-        sceneFader.FadeToScene("VictoryScene");
+        SceneManager.LoadScene("VictoryScene");
 
     }
 
