@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6123660615675856174}
   - component: {fileID: 1438193217954164612}
   - component: {fileID: 4534813279305604390}
+  - component: {fileID: 488943160684163317}
   m_Layer: 0
   m_Name: MyTrophy
   m_TagString: Untagged
@@ -83,6 +84,20 @@ MonoBehaviour:
   player: {fileID: 0}
   destination: {fileID: 0}
   playerg: {fileID: 0}
+--- !u!114 &488943160684163317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8347134629377001658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bafc8cae2fe729448ae6e131e46aa494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  soundTrigger: {fileID: 6123660615675856174}
 --- !u!1001 &1494792990185358778
 PrefabInstance:
   m_ObjectHideFlags: 0
