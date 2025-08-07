@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.alexeyperov.unity-dependencies-hunter": "https://github.com/AlexeyPerov/Unity-Dependencies-Hunter.git#upm",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.ai.navigation": "2.0.8",
     "com.unity.burst": "1.8.23",
