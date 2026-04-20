@@ -105,7 +105,7 @@ Adrian Mendoza
 
 --------------------------------------------------
 #Screenshots
-https://github.com/evives12/GameDevProject/blob/main/SlimeAdventure/screenshots/Slime-adventure-level-design.png
+![level Design](Slime-adventure-level-design.png)
 
 
 WHY THIS PROJECT MATTERS
