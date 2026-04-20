@@ -104,8 +104,16 @@ Adrian Mendoza
 - Expanded UI and player feedback
 
 --------------------------------------------------
-#Screenshots
+# Screenshots
+
+### Level Design
 ![level Design](SlimeAdventure/screenshots/Slime-adventure-level-design.png)
+
+### Main Menu
+![Main Menu](SlimeAdventure/screenshots/slime-adventure-main-menu.png)
+
+### Trophy
+![Trophy](SlimeAdventure/screenshots/slime-adventure-trophy.png)
 
 
 WHY THIS PROJECT MATTERS
